@@ -188,9 +188,9 @@
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32DBCF750370BD2300C91783 /* OpenGLEditor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLEditor_Prefix.pch; sourceTree = "<group>"; };
+		32DBCF750370BD2300C91783 /* BulletPhysicsEditor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletPhysicsEditor_Prefix.pch; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D15AC370486D014006FF6A4 /* OpenGLEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15AC370486D014006FF6A4 /* BulletPhysicsEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulletPhysicsEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A708937F109230A1005C254E /* MeshHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshHelpers.h; sourceTree = "<group>"; };
 		A7089380109230A1005C254E /* MeshHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshHelpers.cpp; sourceTree = "<group>"; };
 		A711A9A810986B6D00F02394 /* OpenGLManipulatingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLManipulatingModel.h; sourceTree = "<group>"; };
@@ -614,7 +614,7 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D15AC370486D014006FF6A4 /* OpenGLEditor.app */,
+				8D15AC370486D014006FF6A4 /* BulletPhysicsEditor.app */,
 				A7A96A4810222EE2003110A1 /* Tests.octest */,
 			);
 			name = Products;
@@ -646,7 +646,7 @@
 		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF750370BD2300C91783 /* OpenGLEditor_Prefix.pch */,
+				32DBCF750370BD2300C91783 /* BulletPhysicsEditor_Prefix.pch */,
 				2A37F4B0FDCFA73011CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -1228,9 +1228,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D15AC270486D014006FF6A4 /* OpenGLEditor */ = {
+		8D15AC270486D014006FF6A4 /* BulletPhysicsEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "OpenGLEditor" */;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "BulletPhysicsEditor" */;
 			buildPhases = (
 				8D15AC2B0486D014006FF6A4 /* Resources */,
 				8D15AC300486D014006FF6A4 /* Sources */,
@@ -1240,10 +1240,10 @@
 			);
 			dependencies = (
 			);
-			name = OpenGLEditor;
+			name = BulletPhysicsEditor;
 			productInstallPath = "$(HOME)/Applications";
 			productName = OpenGLEditor;
-			productReference = 8D15AC370486D014006FF6A4 /* OpenGLEditor.app */;
+			productReference = 8D15AC370486D014006FF6A4 /* BulletPhysicsEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A7A96A4710222EE2003110A1 /* Tests */ = {
@@ -1272,7 +1272,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "OpenGLEditor" */;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "BulletPhysicsEditor" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -1283,7 +1283,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D15AC270486D014006FF6A4 /* OpenGLEditor */,
+				8D15AC270486D014006FF6A4 /* BulletPhysicsEditor */,
 				A7A96A4710222EE2003110A1 /* Tests */,
 			);
 		};
@@ -1497,7 +1497,7 @@
 /* Begin PBXTargetDependency section */
 		A7A96A4E10222F1D003110A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* OpenGLEditor */;
+			target = 8D15AC270486D014006FF6A4 /* BulletPhysicsEditor */;
 			targetProxy = A7A96A4D10222F1D003110A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1606,14 +1606,14 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = OpenGLEditor_Prefix.pch;
+				GCC_PREFIX_HEADER = BulletPhysicsEditor_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/RBSplitView12/build/Release\"",
 				);
-				PRODUCT_NAME = OpenGLEditor;
+				PRODUCT_NAME = BulletPhysicsEditor;
 			};
 			name = Debug;
 		};
@@ -1624,14 +1624,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = OpenGLEditor_Prefix.pch;
+				GCC_PREFIX_HEADER = BulletPhysicsEditor_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/RBSplitView12/build/Release\"",
 				);
-				PRODUCT_NAME = OpenGLEditor;
+				PRODUCT_NAME = BulletPhysicsEditor;
 			};
 			name = Release;
 		};
@@ -1692,7 +1692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "OpenGLEditor" */ = {
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "BulletPhysicsEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05733C808A9546B00998B17 /* Debug */,
@@ -1701,7 +1701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "OpenGLEditor" */ = {
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "BulletPhysicsEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05733CC08A9546B00998B17 /* Debug */,
