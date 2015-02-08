@@ -22,7 +22,7 @@
 using namespace std;
 #include "Enums.h"
 
-#include "btBulletFile.h"
+#include "Extras/Serialize/BulletFileLoader/btBulletFile.h"
 #include "Extras/Serialize/BulletWorldImporter/btBulletWorldImporter.h"
 #include "BulletDynamics/Dynamics/btDynamicsWorld.h"
 #include "BulletDynamics/Dynamics/btDiscreteDynamicsWorld.h"

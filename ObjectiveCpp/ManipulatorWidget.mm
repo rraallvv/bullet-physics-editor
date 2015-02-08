@@ -7,6 +7,7 @@
 //
 
 #import "ManipulatorWidget.h"
+#import <OpenGL/gl.h>
 
 @implementation ManipulatorWidget
 

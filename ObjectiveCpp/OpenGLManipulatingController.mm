@@ -7,7 +7,7 @@
 //
 
 #import "OpenGLManipulatingController.h"
-
+#import <OpenGL/gl.h>
 
 @implementation OpenGLManipulatingController
 
